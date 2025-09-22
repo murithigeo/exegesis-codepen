@@ -1,0 +1,7 @@
+{
+  "name": "exegesis-codepen",
+  "dependencies": {
+    "exegesis-express": "^4.0.0",
+    "express": "^5.1.0"
+  }
+}

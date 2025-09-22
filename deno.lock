@@ -763,9 +763,11 @@
     }
   },
   "workspace": {
-    "dependencies": [
-      "npm:exegesis-express@4",
-      "npm:express@^5.1.0"
-    ]
+    "packageJson": {
+      "dependencies": [
+        "npm:exegesis-express@4",
+        "npm:express@^5.1.0"
+      ]
+    }
   }
 }

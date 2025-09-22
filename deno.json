@@ -1,6 +1,0 @@
-{
-  "imports": {
-    "exegesis-express": "npm:exegesis-express@^4.0.0",
-    "express": "npm:express@^5.1.0"
-  }
-}
