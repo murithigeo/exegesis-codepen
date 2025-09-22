@@ -6,7 +6,10 @@ export function modifyServer(suffix: string): ExegesisPlugin {
     makeExegesisPlugin(data) {
       data.apiDoc = {
         ...data.apiDoc,
-        server: [...(data.apiDoc.servers || []), { url: `/${suffix}` }],
+        server: [
+          ...(data.apiDoc.servers || []),
+          { url: `http://localhost:3000` },
+        ],
       };
       return {};
     },
