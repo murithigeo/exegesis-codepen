@@ -4,9 +4,7 @@ import path from "node:path";
 import { ExegesisContext, middleware } from "exegesis-express";
 
 const app = express();
-
 app.use(
-  "/root",
   await middleware(path.resolve("./openapi.yaml"), {
     controllers: {
       rootController: {
